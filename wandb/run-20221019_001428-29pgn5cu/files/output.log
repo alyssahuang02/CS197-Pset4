@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/exercise.py", line 240, in <module>
+    train()
+  File "/Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/exercise.py", line 203, in train
+    checkpoint_saver = CheckpointSaver(dirpath='./model_weights', decreasing=True, top_n=3)
+  File "/Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/exercise.py", line 67, in __init__
+    if not os.path.exists(dirpath): os.makedirs(dirpath)
+NameError: name 'os' is not defined

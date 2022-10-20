@@ -1,0 +1,11 @@
+
+Train Loss: 0.360,                 Valid Loss: 0.212967,                 Accuracy: 0.93
+Train Loss: 0.242,                 Valid Loss: 0.195628,                 Accuracy: 0.94
+Train Loss: 0.122,                 Valid Loss: 0.183919,                 Accuracy: 0.95
+Train Loss: 0.230,                 Valid Loss: 0.171209,                 Accuracy: 0.95
+Train Loss: 0.176,                 Valid Loss: 0.183316,                 Accuracy: 0.95
+Train Loss: 0.076,                 Valid Loss: 0.143010,                 Accuracy: 0.96
+Train Loss: 0.152,                 Valid Loss: 0.137004,                 Accuracy: 0.96
+Train Loss: 0.079,                 Valid Loss: 0.144400,                 Accuracy: 0.96
+Train Loss: 0.189,                 Valid Loss: 0.148323,                 Accuracy: 0.96
+Train Loss: 0.073,                 Valid Loss: 0.152435,                 Accuracy: 0.96

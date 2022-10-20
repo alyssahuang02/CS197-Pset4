@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/exercise.py", line 241, in <module>
+    train()
+  File "/Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/exercise.py", line 204, in train
+    checkpoint_saver = CheckpointSaver(dirpath='./model_weights', decreasing=True, top_n=3)
+  File "/Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/exercise.py", line 73, in __init__
+    self.best_metric_val = np.Inf if decreasing else -np.Inf
+NameError: name 'np' is not defined

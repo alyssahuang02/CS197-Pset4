@@ -1,0 +1,444 @@
+2022-10-17 22:53:08,681 INFO    StreamThr :4180 [internal.py:wandb_internal():88] W&B internal server running at pid: 4180, started at: 2022-10-17 22:53:08.680219
+2022-10-17 22:53:08,682 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: status
+2022-10-17 22:53:08,683 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: status
+2022-10-17 22:53:08,684 DEBUG   SenderThread:4180 [sender.py:send():301] send: header
+2022-10-17 22:53:08,685 DEBUG   SenderThread:4180 [sender.py:send():301] send: run
+2022-10-17 22:53:08,685 INFO    WriterThread:4180 [datastore.py:open_for_write():75] open: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/run-rt9dxlzb.wandb
+2022-10-17 22:53:09,101 INFO    SenderThread:4180 [dir_watcher.py:__init__():216] watching files in: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files
+2022-10-17 22:53:09,101 INFO    SenderThread:4180 [sender.py:_start_run_threads():912] run started: rt9dxlzb with start time 1666061587.708318
+2022-10-17 22:53:09,101 DEBUG   SenderThread:4180 [sender.py:send():301] send: summary
+2022-10-17 22:53:09,102 INFO    SenderThread:4180 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-17 22:53:09,106 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: check_version
+2022-10-17 22:53:09,106 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: check_version
+2022-10-17 22:53:09,209 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: run_start
+2022-10-17 22:53:09,212 DEBUG   HandlerThread:4180 [meta.py:__init__():34] meta init
+2022-10-17 22:53:09,212 DEBUG   HandlerThread:4180 [meta.py:__init__():49] meta init done
+2022-10-17 22:53:09,212 DEBUG   HandlerThread:4180 [meta.py:probe():215] probe
+2022-10-17 22:53:09,214 DEBUG   HandlerThread:4180 [git.py:repo():40] git repository is invalid
+2022-10-17 22:53:09,215 DEBUG   HandlerThread:4180 [meta.py:_save_pip():53] save pip
+2022-10-17 22:53:09,215 DEBUG   HandlerThread:4180 [meta.py:_save_pip():67] save pip done
+2022-10-17 22:53:09,216 DEBUG   HandlerThread:4180 [meta.py:_save_conda():74] save conda
+2022-10-17 22:53:10,106 INFO    Thread-1065:4180 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/conda-environment.yaml
+2022-10-17 22:53:10,107 INFO    Thread-1065:4180 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/requirements.txt
+2022-10-17 22:53:10,107 INFO    Thread-1065:4180 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/wandb-summary.json
+2022-10-17 22:53:12,902 DEBUG   HandlerThread:4180 [meta.py:_save_conda():84] save conda done
+2022-10-17 22:53:12,902 DEBUG   HandlerThread:4180 [meta.py:probe():253] probe done
+2022-10-17 22:53:12,907 DEBUG   SenderThread:4180 [sender.py:send():301] send: files
+2022-10-17 22:53:12,907 INFO    SenderThread:4180 [sender.py:_save_file():1155] saving file wandb-metadata.json with policy now
+2022-10-17 22:53:12,923 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 22:53:12,929 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: stop_status
+2022-10-17 22:53:13,114 INFO    Thread-1065:4180 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/conda-environment.yaml
+2022-10-17 22:53:13,114 INFO    Thread-1065:4180 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/wandb-metadata.json
+2022-10-17 22:53:13,222 DEBUG   SenderThread:4180 [sender.py:send():301] send: telemetry
+2022-10-17 22:53:13,454 INFO    Thread-1069:4180 [upload_job.py:push():139] Uploaded file /var/folders/tn/xttpwgsn6fv1t_79swz66tp00000gn/T/tmp2c0tcvsrwandb/2ii01y1a-wandb-metadata.json
+2022-10-17 22:53:23,688 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 22:53:23,692 DEBUG   SenderThread:4180 [sender.py:send():301] send: history
+2022-10-17 22:53:23,692 DEBUG   SenderThread:4180 [sender.py:send():301] send: summary
+2022-10-17 22:53:23,696 INFO    SenderThread:4180 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-17 22:53:24,151 INFO    Thread-1065:4180 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/wandb-summary.json
+2022-10-17 22:53:24,151 INFO    Thread-1065:4180 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/output.log
+2022-10-17 22:53:26,153 INFO    Thread-1065:4180 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/output.log
+2022-10-17 22:53:28,229 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 22:53:28,229 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: stop_status
+2022-10-17 22:53:32,804 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 22:53:32,808 DEBUG   SenderThread:4180 [sender.py:send():301] send: history
+2022-10-17 22:53:32,808 DEBUG   SenderThread:4180 [sender.py:send():301] send: summary
+2022-10-17 22:53:32,810 INFO    SenderThread:4180 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-17 22:53:33,177 INFO    Thread-1065:4180 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/wandb-summary.json
+2022-10-17 22:53:34,178 INFO    Thread-1065:4180 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/output.log
+2022-10-17 22:53:37,982 DEBUG   SenderThread:4180 [sender.py:send():301] send: stats
+2022-10-17 22:53:40,200 INFO    Thread-1065:4180 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/config.yaml
+2022-10-17 22:53:41,322 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 22:53:41,323 DEBUG   SenderThread:4180 [sender.py:send():301] send: history
+2022-10-17 22:53:41,323 DEBUG   SenderThread:4180 [sender.py:send():301] send: summary
+2022-10-17 22:53:41,325 INFO    SenderThread:4180 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-17 22:53:42,210 INFO    Thread-1065:4180 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/wandb-summary.json
+2022-10-17 22:53:43,500 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 22:53:43,500 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: stop_status
+2022-10-17 22:53:44,221 INFO    Thread-1065:4180 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/output.log
+2022-10-17 22:53:50,245 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 22:53:50,246 DEBUG   SenderThread:4180 [sender.py:send():301] send: history
+2022-10-17 22:53:50,246 DEBUG   SenderThread:4180 [sender.py:send():301] send: summary
+2022-10-17 22:53:50,248 INFO    SenderThread:4180 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-17 22:53:50,248 INFO    Thread-1065:4180 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/wandb-summary.json
+2022-10-17 22:53:52,253 INFO    Thread-1065:4180 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/output.log
+2022-10-17 22:53:58,765 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 22:53:58,765 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: stop_status
+2022-10-17 22:53:59,145 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 22:53:59,147 DEBUG   SenderThread:4180 [sender.py:send():301] send: history
+2022-10-17 22:53:59,147 DEBUG   SenderThread:4180 [sender.py:send():301] send: summary
+2022-10-17 22:53:59,150 INFO    SenderThread:4180 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-17 22:53:59,281 INFO    Thread-1065:4180 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/wandb-summary.json
+2022-10-17 22:54:00,285 INFO    Thread-1065:4180 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/output.log
+2022-10-17 22:54:07,897 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 22:54:07,897 DEBUG   SenderThread:4180 [sender.py:send():301] send: history
+2022-10-17 22:54:07,898 DEBUG   SenderThread:4180 [sender.py:send():301] send: summary
+2022-10-17 22:54:07,899 INFO    SenderThread:4180 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-17 22:54:08,312 INFO    Thread-1065:4180 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/wandb-summary.json
+2022-10-17 22:54:08,825 DEBUG   SenderThread:4180 [sender.py:send():301] send: stats
+2022-10-17 22:54:10,317 INFO    Thread-1065:4180 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/output.log
+2022-10-17 22:54:13,915 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 22:54:13,917 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: stop_status
+2022-10-17 22:54:16,210 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 22:54:16,211 DEBUG   SenderThread:4180 [sender.py:send():301] send: history
+2022-10-17 22:54:16,212 DEBUG   SenderThread:4180 [sender.py:send():301] send: summary
+2022-10-17 22:54:16,213 INFO    SenderThread:4180 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-17 22:54:16,335 INFO    Thread-1065:4180 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/wandb-summary.json
+2022-10-17 22:54:18,344 INFO    Thread-1065:4180 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/output.log
+2022-10-17 22:54:25,178 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 22:54:25,181 DEBUG   SenderThread:4180 [sender.py:send():301] send: history
+2022-10-17 22:54:25,181 DEBUG   SenderThread:4180 [sender.py:send():301] send: summary
+2022-10-17 22:54:25,181 INFO    SenderThread:4180 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-17 22:54:25,379 INFO    Thread-1065:4180 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/wandb-summary.json
+2022-10-17 22:54:26,381 INFO    Thread-1065:4180 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/output.log
+2022-10-17 22:54:29,031 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: stop_status
+2022-10-17 22:54:29,031 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: stop_status
+2022-10-17 22:54:34,281 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 22:54:34,283 DEBUG   SenderThread:4180 [sender.py:send():301] send: history
+2022-10-17 22:54:34,283 DEBUG   SenderThread:4180 [sender.py:send():301] send: summary
+2022-10-17 22:54:34,285 INFO    SenderThread:4180 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-17 22:54:34,420 INFO    Thread-1065:4180 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/wandb-summary.json
+2022-10-17 22:54:36,427 INFO    Thread-1065:4180 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/output.log
+2022-10-17 22:54:39,716 DEBUG   SenderThread:4180 [sender.py:send():301] send: stats
+2022-10-17 22:54:42,992 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: log_artifact
+2022-10-17 22:54:42,994 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: log_artifact
+2022-10-17 22:54:43,007 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 22:54:43,451 INFO    Thread-1065:4180 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/media/table/predictions_table_9_27e67d90bb013ab9878e.table.json
+2022-10-17 22:54:43,453 INFO    Thread-1065:4180 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/media/table
+2022-10-17 22:54:43,453 INFO    Thread-1065:4180 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/media
+2022-10-17 22:54:43,490 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: partial_history
+2022-10-17 22:54:43,492 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-17 22:54:43,833 INFO    Thread-1111:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/03/05c92b0a5ebe748ae5cdaf80ca380f
+2022-10-17 22:54:43,833 INFO    Thread-1113:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/05/ee94a925aa762f4bf58bd3da67705d
+2022-10-17 22:54:43,833 INFO    Thread-1115:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/08/020515e0e462c54293a04dbe61c65d
+2022-10-17 22:54:43,833 INFO    Thread-1114:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/06/e0734861a07b69985a01dd7c94ff25
+2022-10-17 22:54:43,833 INFO    Thread-1112:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/04/627aef7ad018ac326740abba8a0d95
+2022-10-17 22:54:43,834 INFO    Thread-1116:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/09/299576bb0b0c93beb0bf125066597d
+2022-10-17 22:54:43,834 INFO    Thread-1118:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/0b/564e8770512d4cf0e3a7b29d09d951
+2022-10-17 22:54:43,834 INFO    Thread-1119:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/0d/6c7be55082e4c428faadcc3cb574e1
+2022-10-17 22:54:43,834 INFO    Thread-1120:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/0e/e598812eda42e90807d847b4a35b35
+2022-10-17 22:54:43,834 INFO    Thread-1122:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/11/304c4148ae3ef2b2fe6ac95520be76
+2022-10-17 22:54:43,834 INFO    Thread-1117:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/09/aaa6554ae3e4a6e5fe698370680f19
+2022-10-17 22:54:43,834 INFO    Thread-1121:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/0f/cc343598bb9e2d114b73986a9f4a08
+2022-10-17 22:54:43,834 INFO    Thread-1123:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/12/0f784b5ecb398ed168e46ea5d1a259
+2022-10-17 22:54:43,834 INFO    Thread-1124:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/12/f92cb0c9c43196eb020136b55675b2
+2022-10-17 22:54:43,834 INFO    Thread-1125:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/13/ed6db3f7e1d521f902320ff2e0c658
+2022-10-17 22:54:43,834 INFO    Thread-1126:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/15/6d4256b7b35794478b4b46f1ede559
+2022-10-17 22:54:43,834 INFO    Thread-1127:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/17/e7a222eb29117b4712c7eee39033f7
+2022-10-17 22:54:43,834 INFO    Thread-1128:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/19/a1d942e6241b23102b41b30ae43300
+2022-10-17 22:54:43,834 INFO    Thread-1130:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/1d/370dc8396861c5238a3acba0ea55e0
+2022-10-17 22:54:43,834 INFO    Thread-1129:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/19/b485cb9b30a1157113d25d0a6a08e3
+2022-10-17 22:54:43,834 INFO    Thread-1131:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/1e/61c3b562b05c9f76c0faa2122b24b0
+2022-10-17 22:54:43,834 INFO    Thread-1132:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/1e/73d88ecfa232c6ba22a9f6f688d2f2
+2022-10-17 22:54:43,834 INFO    Thread-1133:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/21/e3076ca4d1a43e2d0959b5aadec39d
+2022-10-17 22:54:43,834 INFO    Thread-1137:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/2a/efd82e9a7daa49aaa6b69dd12483d0
+2022-10-17 22:54:43,834 INFO    Thread-1134:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/22/4fdd41df8f24447e5ca411e3bf3976
+2022-10-17 22:54:43,834 INFO    Thread-1135:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/23/7815aa70ae62251e27623fd6f2af69
+2022-10-17 22:54:43,834 INFO    Thread-1139:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/2c/a3ddf46595f43d40aaea42d2057db1
+2022-10-17 22:54:43,834 INFO    Thread-1136:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/27/5155de18dc8f23525d6ff6ff1c4617
+2022-10-17 22:54:43,834 INFO    Thread-1138:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/2b/d78185f694e98ff875cdb26f142e58
+2022-10-17 22:54:43,834 INFO    Thread-1140:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/2d/8b2d5a181bcb1d4ca60198c1170846
+2022-10-17 22:54:43,835 INFO    Thread-1141:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/2f/916dd173cb2525ae9e068ce193a8d5
+2022-10-17 22:54:43,835 INFO    Thread-1142:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/30/7db87e7c8e996290b5317a4e22bee5
+2022-10-17 22:54:43,835 INFO    Thread-1143:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/32/87a3cd415b5bf746f3060b865cf1ef
+2022-10-17 22:54:43,835 INFO    Thread-1144:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/32/b1ede8fe5fa1397be0a96ee18b8162
+2022-10-17 22:54:43,835 INFO    Thread-1145:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/33/b47b616c3ef17208de4a915c6fab07
+2022-10-17 22:54:43,835 INFO    Thread-1146:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/34/13d5f324ba1d6507dfd31092df8cf1
+2022-10-17 22:54:43,835 INFO    Thread-1148:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/34/c4cbc592356583b172badb1cbf531d
+2022-10-17 22:54:43,835 INFO    Thread-1147:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/34/6ca590afe6cc27c880dab0902422f3
+2022-10-17 22:54:43,835 INFO    Thread-1149:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/35/03b830af6d8b6ab1ff2fffd7c0766a
+2022-10-17 22:54:43,835 INFO    Thread-1150:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/36/5a391d0a3fe88cc6c2112ca9f706d5
+2022-10-17 22:54:43,835 INFO    Thread-1151:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/38/4be45ba6f21775b97a90c4df7f12c0
+2022-10-17 22:54:43,835 INFO    Thread-1152:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/3b/24fc570f634af0a600d1c57ffdb8c1
+2022-10-17 22:54:43,835 INFO    Thread-1155:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/3d/589f0a58ea67292ec7dc0e9d42b7d4
+2022-10-17 22:54:43,835 INFO    Thread-1156:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/3f/163e8f80c4169610bdb76418a6922b
+2022-10-17 22:54:43,835 INFO    Thread-1153:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/3c/128712350e225571ae3dbb17972896
+2022-10-17 22:54:43,835 INFO    Thread-1154:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/3d/2651e329e96f20249f26808a84fa13
+2022-10-17 22:54:43,835 INFO    Thread-1158:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/41/83ccd407c00b07d85de50d82f3c760
+2022-10-17 22:54:43,835 INFO    Thread-1157:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/3f/3937f1df65a2d31c1ab5c8c8a039d8
+2022-10-17 22:54:43,835 INFO    Thread-1159:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/42/ea3bd3640af0ea9eaf89447c63b190
+2022-10-17 22:54:43,835 INFO    Thread-1160:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/43/1badc79fdd20455c92228086d69ee5
+2022-10-17 22:54:43,835 INFO    Thread-1162:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/44/8663a8d9eb28331b66a37c561c4591
+2022-10-17 22:54:43,835 INFO    Thread-1163:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/46/02be17e6d665d957e74dcc8f1c779a
+2022-10-17 22:54:43,835 INFO    Thread-1161:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/44/3155abd9b8bf114afb63582a73c86b
+2022-10-17 22:54:43,835 INFO    Thread-1164:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/46/4896ce7eb3a979a17ca4a72663b252
+2022-10-17 22:54:43,835 INFO    Thread-1166:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/47/31248af33e60fe7fbe814a8a0436d1
+2022-10-17 22:54:43,835 INFO    Thread-1165:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/46/8b076b0d920208f222d4707103063f
+2022-10-17 22:54:43,835 INFO    Thread-1167:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/47/58dc15901d6703a97974ad7badc9bf
+2022-10-17 22:54:43,835 INFO    Thread-1169:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/47/f213b22225f832c30b09999d1ce8b3
+2022-10-17 22:54:43,835 INFO    Thread-1168:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/47/ef0174cbcb05294627100453f74981
+2022-10-17 22:54:43,835 INFO    Thread-1170:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/47/f5e75f7c954192915536195e51a488
+2022-10-17 22:54:43,836 INFO    Thread-1171:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/4c/e17866b7be48355320a3c6f47baa90
+2022-10-17 22:54:43,836 INFO    Thread-1172:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/4d/ad180d86c22746983d9c7b28ecfc0f
+2022-10-17 22:54:43,836 INFO    Thread-1173:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/4d/f7f32af3d5a8a9d55dc4298af8a94e
+2022-10-17 22:54:43,836 INFO    Thread-1174:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/4f/8307b1e65b3d6b71a2bc491d70bcd9
+2022-10-17 22:54:44,265 INFO    Thread-1230:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/9b/03e1dc5700a41dbd06f8f4be5c6d9e
+2022-10-17 22:54:44,265 INFO    Thread-1232:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/9f/9fcb248110e70dfff28a61054658c2
+2022-10-17 22:54:44,265 INFO    Thread-1179:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/5a/559cbb02907440d81c8d7565091cc5
+2022-10-17 22:54:44,265 INFO    Thread-1178:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/58/eac88cf031dabf9de224dd2fa3b93c
+2022-10-17 22:54:44,265 INFO    Thread-1180:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/5a/9a9441b0c397fe5a441dff7b3c4fac
+2022-10-17 22:54:44,265 INFO    Thread-1186:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/61/e023ccb5147d2e0ab7b95d167b02ee
+2022-10-17 22:54:44,265 INFO    Thread-1181:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/5d/d5b4564825caac410ee015b3e72ef2
+2022-10-17 22:54:44,265 INFO    Thread-1182:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/5d/f5a50814e53c67087812de553c2635
+2022-10-17 22:54:44,265 INFO    Thread-1188:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/62/46021df01a0d651a290f2255684069
+2022-10-17 22:54:44,265 INFO    Thread-1183:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/5e/77c3daaab93830264db0e9cc07b0ed
+2022-10-17 22:54:44,265 INFO    Thread-1187:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/62/17c5ad3c1ab1384405d1e5ed487d35
+2022-10-17 22:54:44,265 INFO    Thread-1184:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/5f/61b200a3cc8297e9f2d122401b594f
+2022-10-17 22:54:44,265 INFO    Thread-1185:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/5f/6474afd1cb2ba43831243ff6d81994
+2022-10-17 22:54:44,265 INFO    Thread-1190:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/66/0da034031fa6f53cb3e0b151394d9d
+2022-10-17 22:54:44,266 INFO    Thread-1189:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/62/868bd14c12b8614e18b7dc1cceb4bd
+2022-10-17 22:54:44,266 INFO    Thread-1200:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/72/5ac5d39073751934f8c61c324c8726
+2022-10-17 22:54:44,266 INFO    Thread-1192:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/6a/4cd907436dc87f603f0c6b97f9319e
+2022-10-17 22:54:44,266 INFO    Thread-1191:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/67/63085187609ce696ea3e22df99deb0
+2022-10-17 22:54:44,266 INFO    Thread-1193:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/6b/631e54859779dbcf4d5021962351be
+2022-10-17 22:54:44,266 INFO    Thread-1194:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/6d/87a3ee44d564169b517f25acac24ed
+2022-10-17 22:54:44,266 INFO    Thread-1196:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/6f/d5f2fb8745c92d4e2f3996fd75148f
+2022-10-17 22:54:44,266 INFO    Thread-1199:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/72/3ea25a16b30f5e7d20c99ec16d07b8
+2022-10-17 22:54:44,266 INFO    Thread-1197:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/70/0f96186b47bbd43e707e39f05b6ad2
+2022-10-17 22:54:44,266 INFO    Thread-1195:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/6e/23fe6a04915244d49f9c4f64edca90
+2022-10-17 22:54:44,266 INFO    Thread-1206:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/77/495b0dc5420c6d85b7291ea96d40ee
+2022-10-17 22:54:44,266 INFO    Thread-1201:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/72/957b2095d4beaa6a31fd7b4bcd3cc0
+2022-10-17 22:54:44,266 INFO    Thread-1198:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/72/23a6c6033b52b03523696329560974
+2022-10-17 22:54:44,266 INFO    Thread-1207:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/78/04499567469af732f9a1396481d1d9
+2022-10-17 22:54:44,266 INFO    Thread-1202:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/73/dd73761f6ac60966514901cd16fadb
+2022-10-17 22:54:44,266 INFO    Thread-1205:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/76/8f17c8d3cb2e6eeb43fb538f9a8a59
+2022-10-17 22:54:44,266 INFO    Thread-1203:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/74/5d4c273586f07bd72c961332e44e8c
+2022-10-17 22:54:44,266 INFO    Thread-1204:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/76/5b0a73d453875d4c7ee4b1cc8e9b81
+2022-10-17 22:54:44,266 INFO    Thread-1209:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/79/899c8ea4a80e1ea29f588d3da41ee1
+2022-10-17 22:54:44,266 INFO    Thread-1208:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/78/b74f146e056f9a82a7c186211b0526
+2022-10-17 22:54:44,266 INFO    Thread-1211:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/7a/3a4fbf184b7c165345765e2460cb08
+2022-10-17 22:54:44,266 INFO    Thread-1210:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/79/c28907dd1a0e710871988c9fc4135b
+2022-10-17 22:54:44,266 INFO    Thread-1212:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/7b/bef1aa1429472fc908f39e9bb9711d
+2022-10-17 22:54:44,266 INFO    Thread-1213:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/7e/5949d621c47e756fe2e506f46efc59
+2022-10-17 22:54:44,266 INFO    Thread-1214:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/81/2d0737c4192c16a5d4fcbae62ee1dd
+2022-10-17 22:54:44,266 INFO    Thread-1216:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/82/d470d985ca3d0fb92833b6e3b0dd9c
+2022-10-17 22:54:44,266 INFO    Thread-1215:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/81/da60e9f7c1559464324c0aae140409
+2022-10-17 22:54:44,266 INFO    Thread-1217:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/86/e8f0a63f9f5c189a7948d7627db805
+2022-10-17 22:54:44,266 INFO    Thread-1218:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/87/7dd39d15f501244608b0a12c2bdf68
+2022-10-17 22:54:44,266 INFO    Thread-1220:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/88/e3b91c86d25e1c8557552b7cfdc294
+2022-10-17 22:54:44,266 INFO    Thread-1219:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/87/85a004ba170c9af059e6c32d8ed93a
+2022-10-17 22:54:44,267 INFO    Thread-1221:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/89/24c234a194d67b42774a918384a412
+2022-10-17 22:54:44,267 INFO    Thread-1223:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/8a/dc528886461c505c7a7be3f79b9045
+2022-10-17 22:54:44,267 INFO    Thread-1222:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/89/550bce12e22b7ce7bd801f82bb4ee1
+2022-10-17 22:54:44,267 INFO    Thread-1224:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/8d/3810ed459fd3c1cb1ca40989ad23a6
+2022-10-17 22:54:44,267 INFO    Thread-1226:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/91/1a0e0bc1393d60ec1be85ff6b09ee4
+2022-10-17 22:54:44,267 INFO    Thread-1225:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/90/cf20d9e99d1f60af18892bcdb3b927
+2022-10-17 22:54:44,267 INFO    Thread-1227:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/91/662d4311068ce4324fcc5c5986bcac
+2022-10-17 22:54:44,267 INFO    Thread-1229:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/99/5f45e70dc1644f375a74d562c14aa7
+2022-10-17 22:54:44,267 INFO    Thread-1228:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/92/326e96e15294af8d2f7d55cfd47a34
+2022-10-17 22:54:44,267 INFO    Thread-1237:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/a6/b65304008e8f63d370acdff2e9fb89
+2022-10-17 22:54:44,267 INFO    Thread-1231:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/9d/50033f5110abbf893bc6d07042fd2a
+2022-10-17 22:54:44,267 INFO    Thread-1234:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/a1/15036959abd54d11a8b8c026fd65d6
+2022-10-17 22:54:44,267 INFO    Thread-1236:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/a3/67b0602a9ea258916bfd63b042610b
+2022-10-17 22:54:44,267 INFO    Thread-1235:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/a1/7ea02c953d8fb987ad76765f26293d
+2022-10-17 22:54:44,267 INFO    Thread-1238:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/a7/972bb48dc54177e1e6c7d17ad51a92
+2022-10-17 22:54:44,267 INFO    Thread-1233:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/9f/c19588c63cd154e8eaad1126035467
+2022-10-17 22:54:44,267 INFO    Thread-1175:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/4f/ad85e5e3903e65a37670e51b057f8d
+2022-10-17 22:54:44,267 INFO    Thread-1177:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/58/6161572db77ddea837517163336d8c
+2022-10-17 22:54:44,267 INFO    Thread-1176:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/51/ce7343522a47bdf79a2adce4a65ec8
+2022-10-17 22:54:44,597 INFO    Thread-1301:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/ed/237d89fc63e6c315bf3c188f737262
+2022-10-17 22:54:44,597 INFO    Thread-1241:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/ad/6868a36952bffbc720f5e906fe3a4f
+2022-10-17 22:54:44,597 INFO    Thread-1242:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/ad/76bbdee4ed2b6d315a11e05bc5ff79
+2022-10-17 22:54:44,597 INFO    Thread-1245:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/b0/b4c4f1b5adfc6438c9b8b59ba7998f
+2022-10-17 22:54:44,597 INFO    Thread-1246:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/b0/f781c5f455741acef317249d00f370
+2022-10-17 22:54:44,597 INFO    Thread-1247:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/b2/61be0518f831c72556150f6a601b07
+2022-10-17 22:54:44,597 INFO    Thread-1252:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/b9/87f91e6f29d896a38f31a9dac688c6
+2022-10-17 22:54:44,597 INFO    Thread-1251:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/b5/79c988f4b285196d3dcd3dc49c2ca4
+2022-10-17 22:54:44,598 INFO    Thread-1254:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/bb/6925871573b4870664f5a0a33e4035
+2022-10-17 22:54:44,598 INFO    Thread-1256:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/bd/e3203c2c6ef28d35c337e01e83b623
+2022-10-17 22:54:44,598 INFO    Thread-1257:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/bf/6d405467746cf4643d6866196cc50b
+2022-10-17 22:54:44,598 INFO    Thread-1258:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/c0/30085b3e7f36c101f63fe22a086a7f
+2022-10-17 22:54:44,598 INFO    Thread-1260:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/c2/75f67a70e2931dac018e6e60c3ddd4
+2022-10-17 22:54:44,598 INFO    Thread-1261:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/c6/c7a48e51529b2baf4a389fde1bc5ab
+2022-10-17 22:54:44,598 INFO    Thread-1262:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/c7/f3f2e5a5c3791e626d782e16778e17
+2022-10-17 22:54:44,598 INFO    Thread-1259:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/c0/a62a30858022f536328eded2ba0ad6
+2022-10-17 22:54:44,598 INFO    Thread-1263:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/c8/0bfee598cadefd42166d10e030c7e2
+2022-10-17 22:54:44,598 INFO    Thread-1267:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/ca/240cefb584deddb91d760d691835df
+2022-10-17 22:54:44,598 INFO    Thread-1264:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/c8/a326500bc7fd366670952649380216
+2022-10-17 22:54:44,598 INFO    Thread-1265:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/c9/b488fb26058b52fe7d42f60f176dac
+2022-10-17 22:54:44,599 INFO    Thread-1285:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/dd/e275548c4cefe6318da59af0af8b3e
+2022-10-17 22:54:44,598 INFO    Thread-1266:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/c9/d4360a7aa31ab6fd13ce1ef2571599
+2022-10-17 22:54:44,598 INFO    Thread-1268:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/ca/e88ec232cc8fe4804979fce43f2d57
+2022-10-17 22:54:44,598 INFO    Thread-1271:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/ce/5df4070f8a00ac1ca5c2abea1d211d
+2022-10-17 22:54:44,598 INFO    Thread-1270:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/cc/5c94aae432c353435a30c38475366f
+2022-10-17 22:54:44,598 INFO    Thread-1272:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/cf/0e1b6581dd7568130cfffa5a46b476
+2022-10-17 22:54:44,598 INFO    Thread-1273:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/cf/4ad2effc9cca93fa6d6e4b61ce648e
+2022-10-17 22:54:44,598 INFO    Thread-1275:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/d2/7a302185d5661a69f2051f2854a480
+2022-10-17 22:54:44,598 INFO    Thread-1274:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/d2/08fd778e9ed021fa012b0a4a237638
+2022-10-17 22:54:44,598 INFO    Thread-1276:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/d2/831feef942734adb874bca8e75ecce
+2022-10-17 22:54:44,598 INFO    Thread-1277:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/d3/640a69a189fac64ef6809c9ce6a8e0
+2022-10-17 22:54:44,599 INFO    Thread-1294:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/e5/febe35a3de1c3cdc86975bd45fd8d5
+2022-10-17 22:54:44,598 INFO    Thread-1278:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/d3/936ec4f4bd0f92e204cb23cc101336
+2022-10-17 22:54:44,598 INFO    Thread-1280:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/d5/ccbc412b73ab110240970df50373c4
+2022-10-17 22:54:44,598 INFO    Thread-1281:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/d7/625e2634f33dd87f2683b7123dca13
+2022-10-17 22:54:44,598 INFO    Thread-1282:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/d9/c3c1231879356f3387153d8c10b2fe
+2022-10-17 22:54:44,598 INFO    Thread-1283:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/da/1347fc15b540f92540933558a605d0
+2022-10-17 22:54:44,598 INFO    Thread-1284:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/db/40282770f2c6372d14b696e3db9f98
+2022-10-17 22:54:44,599 INFO    Thread-1286:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/de/b219b89072dfedc9016b528fc0126a
+2022-10-17 22:54:44,598 INFO    Thread-1269:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/ca/fe966127bc8386706e8555b139b8c9
+2022-10-17 22:54:44,599 INFO    Thread-1287:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/df/7c63e055cef64f11924361d6c395fe
+2022-10-17 22:54:44,599 INFO    Thread-1298:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/ea/b02e1e72b0cfd2e7c81f5da46c3daa
+2022-10-17 22:54:44,599 INFO    Thread-1288:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/df/9a2e234b76dae9167404b3c93d6d87
+2022-10-17 22:54:44,599 INFO    Thread-1300:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/ec/2886384392fcef2f6fe8db923c7907
+2022-10-17 22:54:44,599 INFO    Thread-1299:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/eb/1e68fc4d0b03d29ea389055a241bda
+2022-10-17 22:54:44,599 INFO    Thread-1291:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/e3/a80fbb0fa9e0bdca40a5bd742c556e
+2022-10-17 22:54:44,599 INFO    Thread-1302:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/ee/be8f338e1cab611ec08e9ad0ab4311
+2022-10-17 22:54:44,599 INFO    Thread-1292:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/e4/e4307181728458e6695ace5a771acd
+2022-10-17 22:54:44,598 INFO    Thread-1279:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/d5/73fbc8de560595b4ee27df0c8172d1
+2022-10-17 22:54:44,599 INFO    Thread-1296:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/e7/f03f46487465989a59c916575696a0
+2022-10-17 22:54:44,599 INFO    Thread-1289:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/e1/24592bfb12492733dd1bbc777197ec
+2022-10-17 22:54:44,599 INFO    Thread-1290:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/e2/15ea0016d765a2dddb418b119a5799
+2022-10-17 22:54:44,599 INFO    Thread-1295:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/e6/1a9e2b0e6c6ba19b6dcba786c4acc8
+2022-10-17 22:54:44,599 INFO    Thread-1297:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/e8/cc169990d69d1224ebd5c33db996d4
+2022-10-17 22:54:44,599 INFO    Thread-1293:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/e5/6bd994de726869fa24ce0d147788a7
+2022-10-17 22:54:44,599 INFO    Thread-1240:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/ab/d7d526a3f4ee54d45342f132eb9fec
+2022-10-17 22:54:44,599 INFO    Thread-1239:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/a9/498e9392e2f8047043678fb3d0b863
+2022-10-17 22:54:44,600 INFO    Thread-1249:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/b3/e3cf2774310a943fafa1712c88558f
+2022-10-17 22:54:44,600 INFO    Thread-1250:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/b4/ab54eaf72a93cd2cd35fc389405209
+2022-10-17 22:54:44,600 INFO    Thread-1253:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/ba/3d0e206d168c1972d4842a1ebcb39d
+2022-10-17 22:54:44,600 INFO    Thread-1255:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/bd/1620310737e21e6a27dd18ed2f11e0
+2022-10-17 22:54:44,601 INFO    Thread-1244:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/af/d2b22ded5bff15acdfc01b15c0d386
+2022-10-17 22:54:44,601 INFO    Thread-1243:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/ad/d6b2e04678472f240e7d5adfef4053
+2022-10-17 22:54:44,601 INFO    Thread-1248:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/b3/03def4c2145ebc9e39ce0c80ef7dbf
+2022-10-17 22:54:44,866 INFO    Thread-1303:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/f0/0db7ac823079cdf06c492e731255c7
+2022-10-17 22:54:44,866 INFO    Thread-1304:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/f0/dad59a82fd3ab6bc62c6d75a42437b
+2022-10-17 22:54:44,867 INFO    Thread-1307:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/f8/27eb8e55a874371e390e408204b6b8
+2022-10-17 22:54:44,867 INFO    Thread-1310:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/fd/dd0173f56aecbb3f4375bbbbf4dc49
+2022-10-17 22:54:44,867 INFO    Thread-1306:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/f6/d71bffdf8543271059e9541705d69f
+2022-10-17 22:54:44,867 INFO    Thread-1305:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/f5/fcb2a509f1d8a7f0b58c2d2d5c5d0e
+2022-10-17 22:54:44,867 INFO    Thread-1308:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/fb/eb97a3a465539b43a640a2c5f205a0
+2022-10-17 22:54:44,867 INFO    Thread-1309:4180 [upload_job.py:push():94] Skipped uploading /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/fd/7041ab49ced3752509ecf198574cae
+2022-10-17 22:54:45,017 INFO    Thread-1312:4180 [upload_job.py:push():139] Uploaded file /var/folders/tn/xttpwgsn6fv1t_79swz66tp00000gn/T/tmp2c0tcvsrwandb/36mia9y5-media/table/predictions_table_9_27e67d90bb013ab9878e.table.json
+2022-10-17 22:54:45,141 INFO    Thread-1311:4180 [upload_job.py:push():97] Uploaded file /Users/alyssahuang/.cache/wandb/artifacts/obj/md5/11/42f78549031328fced6eb415928ed6
+2022-10-17 22:54:45,855 INFO    SenderThread:4180 [sender.py:send_request_log_artifact():1206] logged artifact run-rt9dxlzb-predictions_table - {'id': 'QXJ0aWZhY3Q6MjMzMzk2MDQ3', 'digest': 'b653fadd530dba05bbe5ce277f7c570c', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjMxODkwMjI4', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MjMzMzkzMDcy', 'versionIndex': 3}}, 'version': 'latest'}
+2022-10-17 22:54:45,856 DEBUG   SenderThread:4180 [sender.py:send():301] send: files
+2022-10-17 22:54:45,857 INFO    SenderThread:4180 [sender.py:_save_file():1155] saving file media/table/predictions_table_9_27e67d90bb013ab9878e.table.json with policy now
+2022-10-17 22:54:45,857 DEBUG   SenderThread:4180 [sender.py:send():301] send: history
+2022-10-17 22:54:45,857 DEBUG   SenderThread:4180 [sender.py:send():301] send: summary
+2022-10-17 22:54:45,858 INFO    SenderThread:4180 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-17 22:54:45,858 DEBUG   SenderThread:4180 [sender.py:send():301] send: telemetry
+2022-10-17 22:54:45,859 DEBUG   SenderThread:4180 [sender.py:send():301] send: exit
+2022-10-17 22:54:45,859 INFO    SenderThread:4180 [sender.py:send_exit():437] handling exit code: 0
+2022-10-17 22:54:45,859 INFO    SenderThread:4180 [sender.py:send_exit():439] handling runtime: 94
+2022-10-17 22:54:45,859 INFO    SenderThread:4180 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-17 22:54:45,859 INFO    SenderThread:4180 [sender.py:send_exit():445] send defer
+2022-10-17 22:54:45,860 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: poll_exit
+2022-10-17 22:54:45,863 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: defer
+2022-10-17 22:54:45,863 INFO    HandlerThread:4180 [handler.py:handle_request_defer():161] handle defer: 0
+2022-10-17 22:54:45,865 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: defer
+2022-10-17 22:54:45,866 INFO    SenderThread:4180 [sender.py:send_request_defer():454] handle sender defer: 0
+2022-10-17 22:54:45,866 INFO    SenderThread:4180 [sender.py:transition_state():458] send defer: 1
+2022-10-17 22:54:45,870 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: defer
+2022-10-17 22:54:45,871 INFO    HandlerThread:4180 [handler.py:handle_request_defer():161] handle defer: 1
+2022-10-17 22:54:45,919 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: defer
+2022-10-17 22:54:45,920 INFO    SenderThread:4180 [sender.py:send_request_defer():454] handle sender defer: 1
+2022-10-17 22:54:45,920 INFO    SenderThread:4180 [sender.py:transition_state():458] send defer: 2
+2022-10-17 22:54:45,920 DEBUG   SenderThread:4180 [sender.py:send():301] send: stats
+2022-10-17 22:54:45,921 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: defer
+2022-10-17 22:54:45,921 INFO    HandlerThread:4180 [handler.py:handle_request_defer():161] handle defer: 2
+2022-10-17 22:54:45,922 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: defer
+2022-10-17 22:54:45,922 INFO    SenderThread:4180 [sender.py:send_request_defer():454] handle sender defer: 2
+2022-10-17 22:54:45,922 INFO    SenderThread:4180 [sender.py:transition_state():458] send defer: 3
+2022-10-17 22:54:45,923 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: defer
+2022-10-17 22:54:45,923 INFO    HandlerThread:4180 [handler.py:handle_request_defer():161] handle defer: 3
+2022-10-17 22:54:45,924 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: defer
+2022-10-17 22:54:45,924 INFO    SenderThread:4180 [sender.py:send_request_defer():454] handle sender defer: 3
+2022-10-17 22:54:45,924 INFO    SenderThread:4180 [sender.py:transition_state():458] send defer: 4
+2022-10-17 22:54:45,925 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: defer
+2022-10-17 22:54:45,926 INFO    HandlerThread:4180 [handler.py:handle_request_defer():161] handle defer: 4
+2022-10-17 22:54:45,926 DEBUG   SenderThread:4180 [sender.py:send():301] send: summary
+2022-10-17 22:54:45,926 INFO    SenderThread:4180 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-17 22:54:45,927 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: defer
+2022-10-17 22:54:45,927 INFO    SenderThread:4180 [sender.py:send_request_defer():454] handle sender defer: 4
+2022-10-17 22:54:45,927 INFO    SenderThread:4180 [sender.py:transition_state():458] send defer: 5
+2022-10-17 22:54:45,927 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: defer
+2022-10-17 22:54:45,928 INFO    HandlerThread:4180 [handler.py:handle_request_defer():161] handle defer: 5
+2022-10-17 22:54:45,928 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: defer
+2022-10-17 22:54:45,928 INFO    SenderThread:4180 [sender.py:send_request_defer():454] handle sender defer: 5
+2022-10-17 22:54:45,978 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-17 22:54:46,056 INFO    SenderThread:4180 [sender.py:transition_state():458] send defer: 6
+2022-10-17 22:54:46,056 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: poll_exit
+2022-10-17 22:54:46,056 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: defer
+2022-10-17 22:54:46,058 INFO    HandlerThread:4180 [handler.py:handle_request_defer():161] handle defer: 6
+2022-10-17 22:54:46,059 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: defer
+2022-10-17 22:54:46,059 INFO    SenderThread:4180 [sender.py:send_request_defer():454] handle sender defer: 6
+2022-10-17 22:54:46,165 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-17 22:54:46,319 INFO    Thread-1313:4180 [upload_job.py:push():139] Uploaded file /var/folders/tn/xttpwgsn6fv1t_79swz66tp00000gn/T/tmp2c0tcvsrwandb/3mk8vt2e-media/table/predictions_table_9_27e67d90bb013ab9878e.table.json
+2022-10-17 22:54:46,463 INFO    Thread-1065:4180 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/config.yaml
+2022-10-17 22:54:46,464 INFO    Thread-1065:4180 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/wandb-summary.json
+2022-10-17 22:54:47,814 INFO    SenderThread:4180 [sender.py:transition_state():458] send defer: 7
+2022-10-17 22:54:47,814 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: poll_exit
+2022-10-17 22:54:47,815 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: defer
+2022-10-17 22:54:47,816 INFO    HandlerThread:4180 [handler.py:handle_request_defer():161] handle defer: 7
+2022-10-17 22:54:47,816 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: defer
+2022-10-17 22:54:47,817 INFO    SenderThread:4180 [sender.py:send_request_defer():454] handle sender defer: 7
+2022-10-17 22:54:47,817 INFO    SenderThread:4180 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-10-17 22:54:47,922 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-17 22:54:48,473 INFO    SenderThread:4180 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/output.log
+2022-10-17 22:54:48,473 INFO    SenderThread:4180 [dir_watcher.py:finish():392] scan: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files
+2022-10-17 22:54:48,474 INFO    SenderThread:4180 [dir_watcher.py:finish():406] scan save: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/requirements.txt requirements.txt
+2022-10-17 22:54:48,474 INFO    SenderThread:4180 [dir_watcher.py:finish():406] scan save: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/output.log output.log
+2022-10-17 22:54:48,475 INFO    SenderThread:4180 [dir_watcher.py:finish():406] scan save: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/config.yaml config.yaml
+2022-10-17 22:54:48,481 INFO    SenderThread:4180 [dir_watcher.py:finish():406] scan save: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/wandb-summary.json wandb-summary.json
+2022-10-17 22:54:48,487 INFO    SenderThread:4180 [dir_watcher.py:finish():406] scan save: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/conda-environment.yaml conda-environment.yaml
+2022-10-17 22:54:48,492 INFO    SenderThread:4180 [dir_watcher.py:finish():406] scan save: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/wandb-metadata.json wandb-metadata.json
+2022-10-17 22:54:48,495 INFO    SenderThread:4180 [dir_watcher.py:finish():406] scan save: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/media/table/predictions_table_9_27e67d90bb013ab9878e.table.json media/table/predictions_table_9_27e67d90bb013ab9878e.table.json
+2022-10-17 22:54:48,496 INFO    SenderThread:4180 [sender.py:transition_state():458] send defer: 8
+2022-10-17 22:54:48,497 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: poll_exit
+2022-10-17 22:54:48,498 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: defer
+2022-10-17 22:54:48,499 INFO    HandlerThread:4180 [handler.py:handle_request_defer():161] handle defer: 8
+2022-10-17 22:54:48,500 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: defer
+2022-10-17 22:54:48,500 INFO    SenderThread:4180 [sender.py:send_request_defer():454] handle sender defer: 8
+2022-10-17 22:54:48,500 INFO    SenderThread:4180 [file_pusher.py:finish():168] shutting down file pusher
+2022-10-17 22:54:48,603 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-17 22:54:48,604 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: poll_exit
+2022-10-17 22:54:48,712 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-17 22:54:48,712 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: poll_exit
+2022-10-17 22:54:48,816 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-17 22:54:48,817 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: poll_exit
+2022-10-17 22:54:48,922 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-17 22:54:48,923 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: poll_exit
+2022-10-17 22:54:48,946 INFO    Thread-1314:4180 [upload_job.py:push():139] Uploaded file /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/requirements.txt
+2022-10-17 22:54:48,983 INFO    Thread-1315:4180 [upload_job.py:push():139] Uploaded file /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/output.log
+2022-10-17 22:54:48,986 INFO    Thread-1317:4180 [upload_job.py:push():139] Uploaded file /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/wandb-summary.json
+2022-10-17 22:54:48,989 INFO    Thread-1316:4180 [upload_job.py:push():139] Uploaded file /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/config.yaml
+2022-10-17 22:54:49,005 INFO    Thread-1318:4180 [upload_job.py:push():139] Uploaded file /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/files/conda-environment.yaml
+2022-10-17 22:54:49,029 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-17 22:54:49,029 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: poll_exit
+2022-10-17 22:54:49,137 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-17 22:54:49,137 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: poll_exit
+2022-10-17 22:54:49,210 INFO    Thread-1064 (_thread_body):4180 [sender.py:transition_state():458] send defer: 9
+2022-10-17 22:54:49,211 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: defer
+2022-10-17 22:54:49,212 INFO    HandlerThread:4180 [handler.py:handle_request_defer():161] handle defer: 9
+2022-10-17 22:54:49,212 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: defer
+2022-10-17 22:54:49,212 INFO    SenderThread:4180 [sender.py:send_request_defer():454] handle sender defer: 9
+2022-10-17 22:54:49,241 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-17 22:54:49,426 INFO    SenderThread:4180 [sender.py:transition_state():458] send defer: 10
+2022-10-17 22:54:49,427 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: poll_exit
+2022-10-17 22:54:49,428 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: defer
+2022-10-17 22:54:49,429 INFO    HandlerThread:4180 [handler.py:handle_request_defer():161] handle defer: 10
+2022-10-17 22:54:49,429 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: defer
+2022-10-17 22:54:49,430 INFO    SenderThread:4180 [sender.py:send_request_defer():454] handle sender defer: 10
+2022-10-17 22:54:49,430 INFO    SenderThread:4180 [sender.py:transition_state():458] send defer: 11
+2022-10-17 22:54:49,431 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: defer
+2022-10-17 22:54:49,431 DEBUG   SenderThread:4180 [sender.py:send():301] send: final
+2022-10-17 22:54:49,432 INFO    HandlerThread:4180 [handler.py:handle_request_defer():161] handle defer: 11
+2022-10-17 22:54:49,432 DEBUG   SenderThread:4180 [sender.py:send():301] send: footer
+2022-10-17 22:54:49,433 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: defer
+2022-10-17 22:54:49,434 INFO    SenderThread:4180 [sender.py:send_request_defer():454] handle sender defer: 11
+2022-10-17 22:54:49,530 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: poll_exit
+2022-10-17 22:54:49,531 DEBUG   SenderThread:4180 [sender.py:send_request():315] send_request: poll_exit
+2022-10-17 22:54:49,531 INFO    SenderThread:4180 [file_pusher.py:join():173] waiting for file pusher
+2022-10-17 22:54:49,723 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: sampled_history
+2022-10-17 22:54:49,725 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: get_summary
+2022-10-17 22:54:49,728 DEBUG   HandlerThread:4180 [handler.py:handle_request():138] handle_request: shutdown
+2022-10-17 22:54:49,728 INFO    HandlerThread:4180 [handler.py:finish():807] shutting down handler
+2022-10-17 22:54:50,435 INFO    WriterThread:4180 [datastore.py:close():279] close: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225307-rt9dxlzb/run-rt9dxlzb.wandb
+2022-10-17 22:54:50,618 INFO    SenderThread:4180 [sender.py:finish():1315] shutting down sender
+2022-10-17 22:54:50,619 INFO    SenderThread:4180 [file_pusher.py:finish():168] shutting down file pusher
+2022-10-17 22:54:50,619 INFO    SenderThread:4180 [file_pusher.py:join():173] waiting for file pusher
+2022-10-17 22:55:00,770 INFO    MainThread:4180 [internal.py:handle_exit():78] Internal process exited
+2022-10-17 22:55:00,770 INFO    MainThread:4180 [internal.py:handle_exit():78] Internal process exited
+2022-10-17 22:55:00,771 INFO    MainThread:4180 [internal.py:handle_exit():78] Internal process exited
+2022-10-17 22:55:00,771 INFO    MainThread:4180 [internal.py:handle_exit():78] Internal process exited
+2022-10-17 22:55:00,771 INFO    MainThread:4180 [internal.py:handle_exit():78] Internal process exited

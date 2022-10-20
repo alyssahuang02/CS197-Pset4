@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "/Users/alyssahuang/miniconda/envs/lec8/lib/python3.10/site-packages/wandb/sdk/wandb_config.py", line 159, in __getattr__
+    return self.__getitem__(key)
+  File "/Users/alyssahuang/miniconda/envs/lec8/lib/python3.10/site-packages/wandb/sdk/wandb_config.py", line 126, in __getitem__
+    return self._items[key]
+KeyError: 'epochs'
+The above exception was the direct cause of the following exception:
+Traceback (most recent call last):
+  File "/Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/exercise.py", line 233, in <module>
+    train()
+  File "/Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/exercise.py", line 167, in train
+    "epochs": wandb.config.epochs,
+  File "/Users/alyssahuang/miniconda/envs/lec8/lib/python3.10/site-packages/wandb/sdk/wandb_config.py", line 161, in __getattr__
+    raise AttributeError(
+AttributeError: '<class 'wandb.sdk.wandb_config.Config'>' object has no attribute 'epochs'

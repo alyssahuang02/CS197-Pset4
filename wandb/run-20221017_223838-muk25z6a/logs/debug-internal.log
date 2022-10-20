@@ -1,0 +1,43 @@
+2022-10-17 22:38:38,316 INFO    StreamThr :3878 [internal.py:wandb_internal():88] W&B internal server running at pid: 3878, started at: 2022-10-17 22:38:38.312365
+2022-10-17 22:38:38,319 DEBUG   HandlerThread:3878 [handler.py:handle_request():138] handle_request: status
+2022-10-17 22:38:38,321 DEBUG   SenderThread:3878 [sender.py:send_request():315] send_request: status
+2022-10-17 22:38:38,323 INFO    WriterThread:3878 [datastore.py:open_for_write():75] open: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_223838-muk25z6a/run-muk25z6a.wandb
+2022-10-17 22:38:38,323 DEBUG   SenderThread:3878 [sender.py:send():301] send: header
+2022-10-17 22:38:38,323 DEBUG   SenderThread:3878 [sender.py:send():301] send: run
+2022-10-17 22:38:38,702 DEBUG   HandlerThread:3878 [handler.py:handle_request():138] handle_request: check_version
+2022-10-17 22:38:38,703 INFO    SenderThread:3878 [dir_watcher.py:__init__():216] watching files in: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_223838-muk25z6a/files
+2022-10-17 22:38:38,703 INFO    SenderThread:3878 [sender.py:_start_run_threads():912] run started: muk25z6a with start time 1666060718.305156
+2022-10-17 22:38:38,703 DEBUG   SenderThread:3878 [sender.py:send():301] send: summary
+2022-10-17 22:38:38,703 INFO    SenderThread:3878 [sender.py:_save_file():1155] saving file wandb-summary.json with policy end
+2022-10-17 22:38:38,703 DEBUG   SenderThread:3878 [sender.py:send_request():315] send_request: check_version
+2022-10-17 22:38:38,799 DEBUG   HandlerThread:3878 [handler.py:handle_request():138] handle_request: run_start
+2022-10-17 22:38:38,800 DEBUG   HandlerThread:3878 [meta.py:__init__():34] meta init
+2022-10-17 22:38:38,803 DEBUG   HandlerThread:3878 [meta.py:__init__():49] meta init done
+2022-10-17 22:38:38,803 DEBUG   HandlerThread:3878 [meta.py:probe():215] probe
+2022-10-17 22:38:38,807 DEBUG   HandlerThread:3878 [git.py:repo():40] git repository is invalid
+2022-10-17 22:38:38,807 DEBUG   HandlerThread:3878 [meta.py:_save_pip():53] save pip
+2022-10-17 22:38:38,810 DEBUG   HandlerThread:3878 [meta.py:_save_pip():67] save pip done
+2022-10-17 22:38:38,810 DEBUG   HandlerThread:3878 [meta.py:_save_conda():74] save conda
+2022-10-17 22:38:39,325 WARNING StreamThr :3878 [internal.py:is_dead():385] Internal process exiting, parent pid 3861 disappeared
+2022-10-17 22:38:39,326 ERROR   StreamThr :3878 [internal.py:wandb_internal():147] Internal process shutdown.
+2022-10-17 22:38:39,329 INFO    WriterThread:3878 [datastore.py:close():279] close: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_223838-muk25z6a/run-muk25z6a.wandb
+2022-10-17 22:38:39,706 INFO    Thread-13 :3878 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_223838-muk25z6a/files/requirements.txt
+2022-10-17 22:38:39,706 INFO    Thread-13 :3878 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_223838-muk25z6a/files/conda-environment.yaml
+2022-10-17 22:38:39,706 INFO    Thread-13 :3878 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_223838-muk25z6a/files/wandb-summary.json
+2022-10-17 22:38:39,792 INFO    SenderThread:3878 [sender.py:finish():1315] shutting down sender
+2022-10-17 22:38:39,792 INFO    SenderThread:3878 [dir_watcher.py:finish():362] shutting down directory watcher
+2022-10-17 22:38:40,711 INFO    SenderThread:3878 [dir_watcher.py:finish():392] scan: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_223838-muk25z6a/files
+2022-10-17 22:38:40,713 INFO    SenderThread:3878 [dir_watcher.py:finish():406] scan save: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_223838-muk25z6a/files/requirements.txt requirements.txt
+2022-10-17 22:38:40,713 INFO    SenderThread:3878 [dir_watcher.py:finish():406] scan save: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_223838-muk25z6a/files/config.yaml config.yaml
+2022-10-17 22:38:40,713 INFO    SenderThread:3878 [dir_watcher.py:finish():406] scan save: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_223838-muk25z6a/files/wandb-summary.json wandb-summary.json
+2022-10-17 22:38:40,714 INFO    SenderThread:3878 [dir_watcher.py:finish():406] scan save: /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_223838-muk25z6a/files/conda-environment.yaml conda-environment.yaml
+2022-10-17 22:38:40,714 INFO    SenderThread:3878 [file_pusher.py:finish():168] shutting down file pusher
+2022-10-17 22:38:40,714 INFO    SenderThread:3878 [file_pusher.py:join():173] waiting for file pusher
+2022-10-17 22:38:41,143 INFO    Thread-18 :3878 [upload_job.py:push():139] Uploaded file /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_223838-muk25z6a/files/config.yaml
+2022-10-17 22:38:41,144 DEBUG   HandlerThread:3878 [meta.py:_save_conda():84] save conda done
+2022-10-17 22:38:41,144 DEBUG   HandlerThread:3878 [meta.py:probe():253] probe done
+2022-10-17 22:38:41,148 INFO    HandlerThread:3878 [handler.py:finish():807] shutting down handler
+2022-10-17 22:38:41,248 INFO    Thread-17 :3878 [upload_job.py:push():139] Uploaded file /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_223838-muk25z6a/files/requirements.txt
+2022-10-17 22:38:41,251 INFO    Thread-19 :3878 [upload_job.py:push():139] Uploaded file /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_223838-muk25z6a/files/wandb-summary.json
+2022-10-17 22:38:41,804 INFO    MainThread:3878 [internal.py:handle_exit():78] Internal process exited
+2022-10-17 22:38:41,805 WARNING MsgRouterThr:3878 [router.py:message_loop():74] EOFError seen in message_loop

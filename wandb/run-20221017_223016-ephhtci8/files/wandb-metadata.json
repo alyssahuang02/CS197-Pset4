@@ -1,0 +1,15 @@
+{
+    "os": "macOS-10.16-x86_64-i386-64bit",
+    "python": "3.10.4",
+    "heartbeatAt": "2022-10-18T02:30:16.469242",
+    "startedAt": "2022-10-18T02:30:16.098331",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "dhcp-10-250-31-248.harvard.edu",
+    "username": "alyssahuang",
+    "executable": "/Users/alyssahuang/miniconda/envs/lec8/bin/python"
+}

@@ -1,0 +1,38 @@
+2022-10-17 22:39:14,600 INFO    Thread-3 (_run_job):3906 [wandb_setup.py:_flush():68] Configure stats pid to 3906
+2022-10-17 22:39:14,600 INFO    Thread-3 (_run_job):3906 [wandb_setup.py:_flush():68] Loading settings from /Users/alyssahuang/.config/wandb/settings
+2022-10-17 22:39:14,600 INFO    Thread-3 (_run_job):3906 [wandb_setup.py:_flush():68] Loading settings from /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/settings
+2022-10-17 22:39:14,600 INFO    Thread-3 (_run_job):3906 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'project': 'cs197-pset4', 'entity': 'alyssahuang02', 'root_dir': '/Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4', 'sweep_id': '10ulzfry', 'run_id': '3rz702uu', 'sweep_param_path': '/Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/sweep-10ulzfry/config-3rz702uu.yaml'}
+2022-10-17 22:39:14,600 INFO    Thread-3 (_run_job):3906 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'exercise.py', 'program': '/Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/exercise.py'}
+2022-10-17 22:39:14,601 INFO    Thread-3 (_run_job):3906 [wandb_init.py:_log_setup():476] Logging user logs to /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_223914-3rz702uu/logs/debug.log
+2022-10-17 22:39:14,601 INFO    Thread-3 (_run_job):3906 [wandb_init.py:_log_setup():477] Logging internal logs to /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_223914-3rz702uu/logs/debug-internal.log
+2022-10-17 22:39:14,601 INFO    Thread-3 (_run_job):3906 [wandb_init.py:init():516] calling init triggers
+2022-10-17 22:39:14,601 INFO    Thread-3 (_run_job):3906 [wandb_init.py:init():519] wandb.init called with sweep_config: {'batch_size': 100, 'epochs': 10, 'lr': 0.01}
+config: {}
+2022-10-17 22:39:14,601 INFO    Thread-3 (_run_job):3906 [wandb_init.py:init():569] starting backend
+2022-10-17 22:39:14,601 INFO    Thread-3 (_run_job):3906 [wandb_init.py:init():573] setting up manager
+2022-10-17 22:39:14,609 INFO    Thread-3 (_run_job):3906 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2022-10-17 22:39:14,615 INFO    Thread-3 (_run_job):3906 [wandb_init.py:init():580] backend started and connected
+2022-10-17 22:39:14,621 INFO    Thread-3 (_run_job):3906 [wandb_run.py:_config_callback():1145] config_cb None None {'batch_size': 100, 'epochs': 10, 'lr': 0.01}
+2022-10-17 22:39:14,623 INFO    Thread-3 (_run_job):3906 [wandb_init.py:init():658] updated telemetry
+2022-10-17 22:39:14,624 INFO    Thread-3 (_run_job):3906 [wandb_init.py:init():692] communicating run to backend with 30 second timeout
+2022-10-17 22:39:14,925 INFO    Thread-3 (_run_job):3906 [wandb_run.py:_on_init():1974] communicating current version
+2022-10-17 22:39:14,987 INFO    Thread-3 (_run_job):3906 [wandb_run.py:_on_init():1978] got version response upgrade_message: "wandb version 0.13.4 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-10-17 22:39:14,987 INFO    Thread-3 (_run_job):3906 [wandb_init.py:init():727] starting run threads in backend
+2022-10-17 22:39:17,108 INFO    Thread-3 (_run_job):3906 [wandb_run.py:_console_start():1954] atexit reg
+2022-10-17 22:39:17,108 INFO    Thread-3 (_run_job):3906 [wandb_run.py:_redirect():1812] redirect: SettingsConsole.WRAP_RAW
+2022-10-17 22:39:17,109 INFO    Thread-3 (_run_job):3906 [wandb_run.py:_redirect():1877] Wrapping output streams.
+2022-10-17 22:39:17,109 INFO    Thread-3 (_run_job):3906 [wandb_run.py:_redirect():1899] Redirects installed.
+2022-10-17 22:39:17,109 INFO    Thread-3 (_run_job):3906 [wandb_init.py:init():764] run started, returning control to user process
+2022-10-17 22:39:31,718 INFO    MainThread:3906 [wandb_setup.py:_flush():68] Configure stats pid to 3906
+2022-10-17 22:39:31,718 INFO    MainThread:3906 [wandb_setup.py:_flush():68] Loading settings from /Users/alyssahuang/.config/wandb/settings
+2022-10-17 22:39:31,719 INFO    MainThread:3906 [wandb_setup.py:_flush():68] Loading settings from /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/settings
+2022-10-17 22:39:31,719 INFO    MainThread:3906 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'project': 'cs197-pset4', 'entity': 'alyssahuang02', 'root_dir': '/Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4', 'sweep_id': '10ulzfry', 'run_id': '3rz702uu', 'sweep_param_path': '/Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/sweep-10ulzfry/config-3rz702uu.yaml'}
+2022-10-17 22:39:31,719 INFO    MainThread:3906 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'exercise.py', 'program': '/Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/exercise.py'}
+2022-10-17 22:39:31,719 INFO    MainThread:3906 [wandb_init.py:_log_setup():476] Logging user logs to /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_223931-3rz702uu/logs/debug.log
+2022-10-17 22:39:31,719 INFO    MainThread:3906 [wandb_init.py:_log_setup():477] Logging internal logs to /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_223931-3rz702uu/logs/debug-internal.log
+2022-10-17 22:39:31,719 INFO    MainThread:3906 [wandb_init.py:init():516] calling init triggers
+2022-10-17 22:39:31,719 INFO    MainThread:3906 [wandb_init.py:init():519] wandb.init called with sweep_config: {'batch_size': 100, 'epochs': 10, 'lr': 0.01}
+config: {}
+2022-10-17 22:39:31,719 INFO    MainThread:3906 [wandb_init.py:init():564] wandb.init() called when a run is still active
+2022-10-17 22:39:35,958 WARNING MsgRouterThr:3906 [router.py:message_loop():77] message_loop has been closed

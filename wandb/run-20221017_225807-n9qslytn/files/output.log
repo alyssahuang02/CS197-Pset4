@@ -1,0 +1,12 @@
+
+Train Loss: 0.311,                 Valid Loss: 0.295582,                 Accuracy: 0.91
+Train Loss: 0.240,                 Valid Loss: 0.233129,                 Accuracy: 0.93
+Train Loss: 0.209,                 Valid Loss: 0.214957,                 Accuracy: 0.94
+Train Loss: 0.199,                 Valid Loss: 0.199271,                 Accuracy: 0.94
+Train Loss: 0.213,                 Valid Loss: 0.184335,                 Accuracy: 0.94
+Train Loss: 0.166,                 Valid Loss: 0.179178,                 Accuracy: 0.95
+[34m[1mwandb[39m[22m: Network error (ConnectionError), entering retry loop.
+Train Loss: 0.147,                 Valid Loss: 0.161585,                 Accuracy: 0.95
+Train Loss: 0.133,                 Valid Loss: 0.163884,                 Accuracy: 0.95
+Train Loss: 0.078,                 Valid Loss: 0.157018,                 Accuracy: 0.95
+Train Loss: 0.121,                 Valid Loss: 0.157277,                 Accuracy: 0.95

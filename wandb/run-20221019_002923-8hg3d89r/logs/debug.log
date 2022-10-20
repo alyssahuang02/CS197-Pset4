@@ -1,0 +1,181 @@
+2022-10-19 00:29:23,707 INFO    Thread-3 (_run_job):49358 [wandb_setup.py:_flush():68] Configure stats pid to 49358
+2022-10-19 00:29:23,707 INFO    Thread-3 (_run_job):49358 [wandb_setup.py:_flush():68] Loading settings from /Users/alyssahuang/.config/wandb/settings
+2022-10-19 00:29:23,707 INFO    Thread-3 (_run_job):49358 [wandb_setup.py:_flush():68] Loading settings from /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/settings
+2022-10-19 00:29:23,707 INFO    Thread-3 (_run_job):49358 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'project': 'cs197-pset4', 'entity': 'alyssahuang02', 'root_dir': '/Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4', 'sweep_id': 'xci41omg', 'run_id': '8hg3d89r', 'sweep_param_path': '/Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/sweep-xci41omg/config-8hg3d89r.yaml'}
+2022-10-19 00:29:23,707 INFO    Thread-3 (_run_job):49358 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'exercise.py', 'program': '/Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/exercise.py'}
+2022-10-19 00:29:23,707 INFO    Thread-3 (_run_job):49358 [wandb_init.py:_log_setup():476] Logging user logs to /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221019_002923-8hg3d89r/logs/debug.log
+2022-10-19 00:29:23,707 INFO    Thread-3 (_run_job):49358 [wandb_init.py:_log_setup():477] Logging internal logs to /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221019_002923-8hg3d89r/logs/debug-internal.log
+2022-10-19 00:29:23,707 INFO    Thread-3 (_run_job):49358 [wandb_init.py:init():516] calling init triggers
+2022-10-19 00:29:23,707 INFO    Thread-3 (_run_job):49358 [wandb_init.py:init():519] wandb.init called with sweep_config: {'batch_size': 100, 'epochs': 5, 'lr': 0.01}
+config: {}
+2022-10-19 00:29:23,707 INFO    Thread-3 (_run_job):49358 [wandb_init.py:init():569] starting backend
+2022-10-19 00:29:23,707 INFO    Thread-3 (_run_job):49358 [wandb_init.py:init():573] setting up manager
+2022-10-19 00:29:23,712 INFO    Thread-3 (_run_job):49358 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2022-10-19 00:29:23,717 INFO    Thread-3 (_run_job):49358 [wandb_init.py:init():580] backend started and connected
+2022-10-19 00:29:23,723 INFO    Thread-3 (_run_job):49358 [wandb_run.py:_config_callback():1145] config_cb None None {'batch_size': 100, 'epochs': 5, 'lr': 0.01}
+2022-10-19 00:29:23,724 INFO    Thread-3 (_run_job):49358 [wandb_init.py:init():658] updated telemetry
+2022-10-19 00:29:23,725 INFO    Thread-3 (_run_job):49358 [wandb_init.py:init():692] communicating run to backend with 30 second timeout
+2022-10-19 00:29:25,530 INFO    Thread-3 (_run_job):49358 [wandb_run.py:_on_init():1974] communicating current version
+2022-10-19 00:29:26,035 INFO    Thread-3 (_run_job):49358 [wandb_run.py:_on_init():1978] got version response upgrade_message: "wandb version 0.13.4 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-10-19 00:29:26,035 INFO    Thread-3 (_run_job):49358 [wandb_init.py:init():727] starting run threads in backend
+2022-10-19 00:29:28,063 INFO    Thread-3 (_run_job):49358 [wandb_run.py:_console_start():1954] atexit reg
+2022-10-19 00:29:28,063 INFO    Thread-3 (_run_job):49358 [wandb_run.py:_redirect():1812] redirect: SettingsConsole.WRAP_RAW
+2022-10-19 00:29:28,063 INFO    Thread-3 (_run_job):49358 [wandb_run.py:_redirect():1877] Wrapping output streams.
+2022-10-19 00:29:28,063 INFO    Thread-3 (_run_job):49358 [wandb_run.py:_redirect():1899] Redirects installed.
+2022-10-19 00:29:28,063 INFO    Thread-3 (_run_job):49358 [wandb_init.py:init():764] run started, returning control to user process
+2022-10-19 00:30:06,898 INFO    Thread-3 (_run_job):49358 [wandb_run.py:_finish():1720] finishing run alyssahuang02/cs197-pset4/8hg3d89r
+2022-10-19 00:30:06,898 INFO    Thread-3 (_run_job):49358 [wandb_run.py:_atexit_cleanup():1923] got exitcode: 0
+2022-10-19 00:30:06,898 INFO    Thread-3 (_run_job):49358 [wandb_run.py:_restore():1906] restore
+2022-10-19 00:30:06,898 INFO    Thread-3 (_run_job):49358 [wandb_run.py:_restore():1912] restore done
+2022-10-19 00:30:11,750 INFO    Thread-3 (_run_job):49358 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 1
+  artifact_count: 206
+}
+pusher_stats {
+  uploaded_bytes: 4205980
+  total_bytes: 4205980
+  deduped_bytes: 53776
+}
+
+2022-10-19 00:30:11,940 INFO    Thread-3 (_run_job):49358 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 1
+  artifact_count: 206
+}
+pusher_stats {
+  uploaded_bytes: 4205980
+  total_bytes: 4205980
+  deduped_bytes: 53776
+}
+
+2022-10-19 00:30:13,961 INFO    Thread-3 (_run_job):49358 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 1
+  artifact_count: 206
+}
+pusher_stats {
+  uploaded_bytes: 4205980
+  total_bytes: 4205980
+  deduped_bytes: 53776
+}
+
+2022-10-19 00:30:14,712 INFO    Thread-3 (_run_job):49358 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  artifact_count: 206
+}
+pusher_stats {
+  uploaded_bytes: 4205980
+  total_bytes: 4214874
+  deduped_bytes: 53776
+}
+
+2022-10-19 00:30:14,850 INFO    Thread-3 (_run_job):49358 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  artifact_count: 206
+}
+pusher_stats {
+  uploaded_bytes: 4205980
+  total_bytes: 4214874
+  deduped_bytes: 53776
+}
+
+2022-10-19 00:30:14,960 INFO    Thread-3 (_run_job):49358 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  artifact_count: 206
+}
+pusher_stats {
+  uploaded_bytes: 4205980
+  total_bytes: 4214874
+  deduped_bytes: 53776
+}
+
+2022-10-19 00:30:15,070 INFO    Thread-3 (_run_job):49358 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  artifact_count: 206
+}
+pusher_stats {
+  uploaded_bytes: 4214874
+  total_bytes: 4214874
+  deduped_bytes: 53776
+}
+
+2022-10-19 00:30:15,174 INFO    Thread-3 (_run_job):49358 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  artifact_count: 206
+}
+pusher_stats {
+  uploaded_bytes: 4214874
+  total_bytes: 4214874
+  deduped_bytes: 53776
+}
+
+2022-10-19 00:30:15,282 INFO    Thread-3 (_run_job):49358 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  artifact_count: 206
+}
+pusher_stats {
+  uploaded_bytes: 4214874
+  total_bytes: 4214874
+  deduped_bytes: 53776
+}
+
+2022-10-19 00:30:15,386 INFO    Thread-3 (_run_job):49358 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  artifact_count: 206
+}
+pusher_stats {
+  uploaded_bytes: 4214874
+  total_bytes: 4214874
+  deduped_bytes: 53776
+}
+
+2022-10-19 00:30:15,494 INFO    Thread-3 (_run_job):49358 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  artifact_count: 206
+}
+pusher_stats {
+  uploaded_bytes: 4214874
+  total_bytes: 4214874
+  deduped_bytes: 53776
+}
+
+2022-10-19 00:30:15,843 INFO    Thread-3 (_run_job):49358 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  artifact_count: 206
+}
+pusher_stats {
+  uploaded_bytes: 4214874
+  total_bytes: 4214874
+  deduped_bytes: 53776
+}
+
+2022-10-19 00:30:16,108 INFO    Thread-3 (_run_job):49358 [wandb_run.py:_on_finish():2224] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 6
+  media_count: 1
+  artifact_count: 206
+}
+pusher_stats {
+  uploaded_bytes: 4214874
+  total_bytes: 4214874
+  deduped_bytes: 53776
+}
+local_info {
+}
+
+2022-10-19 00:30:17,220 INFO    Thread-3 (_run_job):49358 [wandb_run.py:_footer_history_summary_info():3321] rendering history
+2022-10-19 00:30:17,220 INFO    Thread-3 (_run_job):49358 [wandb_run.py:_footer_history_summary_info():3353] rendering summary
+2022-10-19 00:30:17,223 INFO    Thread-3 (_run_job):49358 [wandb_run.py:_footer_sync_info():3277] logging synced files

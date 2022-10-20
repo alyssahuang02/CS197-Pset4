@@ -1,0 +1,20 @@
+
+Train Loss: 0.241,                 Valid Loss: 0.296431,                 Accuracy: 0.92
+Train Loss: 0.344,                 Valid Loss: 0.243483,                 Accuracy: 0.93
+Train Loss: 0.177,                 Valid Loss: 0.214587,                 Accuracy: 0.94
+Train Loss: 0.165,                 Valid Loss: 0.196459,                 Accuracy: 0.94
+Train Loss: 0.177,                 Valid Loss: 0.186680,                 Accuracy: 0.94
+Train Loss: 0.143,                 Valid Loss: 0.178299,                 Accuracy: 0.95
+Train Loss: 0.121,                 Valid Loss: 0.167006,                 Accuracy: 0.95
+Train Loss: 0.130,                 Valid Loss: 0.165371,                 Accuracy: 0.95
+Train Loss: 0.039,                 Valid Loss: 0.160469,                 Accuracy: 0.95
+Traceback (most recent call last):
+  File "/Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/exercise.py", line 172, in <module>
+    train()
+  File "/Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/exercise.py", line 154, in train
+    val_loss, accuracy = validate_model(
+  File "/Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/exercise.py", line 83, in validate_model
+    log_image_table(
+  File "/Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/exercise.py", line 50, in log_image_table
+    for img, pred, targ, prob in \
+ValueError: not enough values to unpack (expected 4, got 3)

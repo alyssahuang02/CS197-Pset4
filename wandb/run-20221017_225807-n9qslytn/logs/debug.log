@@ -1,0 +1,241 @@
+2022-10-17 22:58:07,065 INFO    Thread-21 (_run_job):4168 [wandb_setup.py:_flush():68] Configure stats pid to 4168
+2022-10-17 22:58:07,066 INFO    Thread-21 (_run_job):4168 [wandb_setup.py:_flush():68] Loading settings from /Users/alyssahuang/.config/wandb/settings
+2022-10-17 22:58:07,066 INFO    Thread-21 (_run_job):4168 [wandb_setup.py:_flush():68] Loading settings from /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/settings
+2022-10-17 22:58:07,067 INFO    Thread-21 (_run_job):4168 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'project': 'cs197-pset4', 'entity': 'alyssahuang02', 'root_dir': '/Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4', 'run_id': 'n9qslytn', 'sweep_param_path': '/Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/sweep-kjqjyth0/config-n9qslytn.yaml', 'sweep_id': 'kjqjyth0'}
+2022-10-17 22:58:07,068 INFO    Thread-21 (_run_job):4168 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'exercise.py', 'program': '/Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/exercise.py'}
+2022-10-17 22:58:07,068 INFO    Thread-21 (_run_job):4168 [wandb_init.py:_log_setup():476] Logging user logs to /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225807-n9qslytn/logs/debug.log
+2022-10-17 22:58:07,069 INFO    Thread-21 (_run_job):4168 [wandb_init.py:_log_setup():477] Logging internal logs to /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221017_225807-n9qslytn/logs/debug-internal.log
+2022-10-17 22:58:07,069 INFO    Thread-21 (_run_job):4168 [wandb_init.py:init():516] calling init triggers
+2022-10-17 22:58:07,070 INFO    Thread-21 (_run_job):4168 [wandb_init.py:init():519] wandb.init called with sweep_config: {'batch_size': 100, 'epochs': 10, 'lr': 0.001}
+config: {}
+2022-10-17 22:58:07,070 INFO    Thread-21 (_run_job):4168 [wandb_init.py:init():569] starting backend
+2022-10-17 22:58:07,070 INFO    Thread-21 (_run_job):4168 [wandb_init.py:init():573] setting up manager
+2022-10-17 22:58:07,078 INFO    Thread-21 (_run_job):4168 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2022-10-17 22:58:07,089 INFO    Thread-21 (_run_job):4168 [wandb_init.py:init():580] backend started and connected
+2022-10-17 22:58:07,098 INFO    Thread-21 (_run_job):4168 [wandb_run.py:_config_callback():1145] config_cb None None {'batch_size': 100, 'epochs': 10, 'lr': 0.001}
+2022-10-17 22:58:07,100 INFO    Thread-21 (_run_job):4168 [wandb_init.py:init():658] updated telemetry
+2022-10-17 22:58:07,102 INFO    Thread-21 (_run_job):4168 [wandb_init.py:init():692] communicating run to backend with 30 second timeout
+2022-10-17 22:58:08,492 INFO    Thread-21 (_run_job):4168 [wandb_run.py:_on_init():1974] communicating current version
+2022-10-17 22:58:08,557 INFO    Thread-21 (_run_job):4168 [wandb_run.py:_on_init():1978] got version response upgrade_message: "wandb version 0.13.4 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-10-17 22:58:08,557 INFO    Thread-21 (_run_job):4168 [wandb_init.py:init():727] starting run threads in backend
+2022-10-17 22:58:11,484 INFO    Thread-21 (_run_job):4168 [wandb_run.py:_console_start():1954] atexit reg
+2022-10-17 22:58:11,484 INFO    Thread-21 (_run_job):4168 [wandb_run.py:_redirect():1812] redirect: SettingsConsole.WRAP_RAW
+2022-10-17 22:58:11,484 INFO    Thread-21 (_run_job):4168 [wandb_run.py:_redirect():1877] Wrapping output streams.
+2022-10-17 22:58:11,485 INFO    Thread-21 (_run_job):4168 [wandb_run.py:_redirect():1899] Redirects installed.
+2022-10-17 22:58:11,485 INFO    Thread-21 (_run_job):4168 [wandb_init.py:init():764] run started, returning control to user process
+2022-10-17 22:59:06,226 ERROR   Thread-2 (_heartbeat):4168 [retry.py:__call__():154] Retry attempt failed:
+Traceback (most recent call last):
+  File "/Users/alyssahuang/miniconda/envs/lec8/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/alyssahuang/miniconda/envs/lec8/lib/python3.10/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Users/alyssahuang/miniconda/envs/lec8/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alyssahuang/miniconda/envs/lec8/lib/python3.10/site-packages/urllib3/connectionpool.py", line 703, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/alyssahuang/miniconda/envs/lec8/lib/python3.10/site-packages/urllib3/connectionpool.py", line 386, in _make_request
+    self._validate_conn(conn)
+  File "/Users/alyssahuang/miniconda/envs/lec8/lib/python3.10/site-packages/urllib3/connectionpool.py", line 1042, in _validate_conn
+    conn.connect()
+  File "/Users/alyssahuang/miniconda/envs/lec8/lib/python3.10/site-packages/urllib3/connection.py", line 358, in connect
+    self.sock = conn = self._new_conn()
+  File "/Users/alyssahuang/miniconda/envs/lec8/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x7f9c2b350580>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alyssahuang/miniconda/envs/lec8/lib/python3.10/site-packages/requests/adapters.py", line 489, in send
+    resp = conn.urlopen(
+  File "/Users/alyssahuang/miniconda/envs/lec8/lib/python3.10/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    retries = retries.increment(
+  File "/Users/alyssahuang/miniconda/envs/lec8/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f9c2b350580>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/alyssahuang/miniconda/envs/lec8/lib/python3.10/site-packages/wandb/sdk/lib/retry.py", line 113, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/alyssahuang/miniconda/envs/lec8/lib/python3.10/site-packages/wandb/sdk/internal/internal_api.py", line 199, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/Users/alyssahuang/miniconda/envs/lec8/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/alyssahuang/miniconda/envs/lec8/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/alyssahuang/miniconda/envs/lec8/lib/python3.10/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/transport/requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "/Users/alyssahuang/miniconda/envs/lec8/lib/python3.10/site-packages/requests/api.py", line 115, in post
+    return request("post", url, data=data, json=json, **kwargs)
+  File "/Users/alyssahuang/miniconda/envs/lec8/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/alyssahuang/miniconda/envs/lec8/lib/python3.10/site-packages/requests/sessions.py", line 587, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/alyssahuang/miniconda/envs/lec8/lib/python3.10/site-packages/requests/sessions.py", line 701, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/alyssahuang/miniconda/envs/lec8/lib/python3.10/site-packages/requests/adapters.py", line 565, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f9c2b350580>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2022-10-17 22:59:40,937 INFO    Thread-21 (_run_job):4168 [wandb_run.py:_finish():1720] finishing run alyssahuang02/cs197-pset4/n9qslytn
+2022-10-17 22:59:40,938 INFO    Thread-21 (_run_job):4168 [wandb_run.py:_atexit_cleanup():1923] got exitcode: 0
+2022-10-17 22:59:40,938 INFO    Thread-21 (_run_job):4168 [wandb_run.py:_restore():1906] restore
+2022-10-17 22:59:40,938 INFO    Thread-21 (_run_job):4168 [wandb_run.py:_restore():1912] restore done
+2022-10-17 22:59:43,295 INFO    Thread-21 (_run_job):4168 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 1
+  artifact_count: 201
+}
+pusher_stats {
+  uploaded_bytes: 96000
+  total_bytes: 99455
+  deduped_bytes: 53776
+}
+
+2022-10-17 22:59:43,519 INFO    Thread-21 (_run_job):4168 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 1
+  artifact_count: 201
+}
+pusher_stats {
+  uploaded_bytes: 99455
+  total_bytes: 99455
+  deduped_bytes: 53776
+}
+
+2022-10-17 22:59:46,370 INFO    Thread-21 (_run_job):4168 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 1
+  artifact_count: 201
+}
+pusher_stats {
+  uploaded_bytes: 99455
+  total_bytes: 99455
+  deduped_bytes: 53776
+}
+
+2022-10-17 22:59:46,722 INFO    Thread-21 (_run_job):4168 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 3
+  media_count: 1
+  artifact_count: 201
+}
+pusher_stats {
+  uploaded_bytes: 99455
+  total_bytes: 101915
+  deduped_bytes: 53776
+}
+
+2022-10-17 22:59:46,829 INFO    Thread-21 (_run_job):4168 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  artifact_count: 201
+}
+pusher_stats {
+  uploaded_bytes: 99455
+  total_bytes: 107726
+  deduped_bytes: 53776
+}
+
+2022-10-17 22:59:46,937 INFO    Thread-21 (_run_job):4168 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  artifact_count: 201
+}
+pusher_stats {
+  uploaded_bytes: 99455
+  total_bytes: 107726
+  deduped_bytes: 53776
+}
+
+2022-10-17 22:59:47,042 INFO    Thread-21 (_run_job):4168 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  artifact_count: 201
+}
+pusher_stats {
+  uploaded_bytes: 107726
+  total_bytes: 107726
+  deduped_bytes: 53776
+}
+
+2022-10-17 22:59:47,152 INFO    Thread-21 (_run_job):4168 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  artifact_count: 201
+}
+pusher_stats {
+  uploaded_bytes: 107726
+  total_bytes: 107726
+  deduped_bytes: 53776
+}
+
+2022-10-17 22:59:47,262 INFO    Thread-21 (_run_job):4168 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  artifact_count: 201
+}
+pusher_stats {
+  uploaded_bytes: 107726
+  total_bytes: 107726
+  deduped_bytes: 53776
+}
+
+2022-10-17 22:59:47,369 INFO    Thread-21 (_run_job):4168 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  artifact_count: 201
+}
+pusher_stats {
+  uploaded_bytes: 107726
+  total_bytes: 107726
+  deduped_bytes: 53776
+}
+
+2022-10-17 22:59:47,478 INFO    Thread-21 (_run_job):4168 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  artifact_count: 201
+}
+pusher_stats {
+  uploaded_bytes: 107726
+  total_bytes: 107726
+  deduped_bytes: 53776
+}
+
+2022-10-17 22:59:48,040 INFO    Thread-21 (_run_job):4168 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  artifact_count: 201
+}
+pusher_stats {
+  uploaded_bytes: 107726
+  total_bytes: 107726
+  deduped_bytes: 53776
+}
+
+2022-10-17 22:59:48,418 INFO    Thread-21 (_run_job):4168 [wandb_run.py:_on_finish():2224] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 6
+  media_count: 1
+  artifact_count: 201
+}
+pusher_stats {
+  uploaded_bytes: 107726
+  total_bytes: 107726
+  deduped_bytes: 53776
+}
+local_info {
+}
+
+2022-10-17 22:59:49,530 INFO    Thread-21 (_run_job):4168 [wandb_run.py:_footer_history_summary_info():3321] rendering history
+2022-10-17 22:59:49,530 INFO    Thread-21 (_run_job):4168 [wandb_run.py:_footer_history_summary_info():3353] rendering summary
+2022-10-17 22:59:49,536 INFO    Thread-21 (_run_job):4168 [wandb_run.py:_footer_sync_info():3277] logging synced files

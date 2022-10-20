@@ -1,0 +1,180 @@
+2022-10-18 02:23:29,611 INFO    Thread-412 (_run_job):11441 [wandb_setup.py:_flush():68] Configure stats pid to 11441
+2022-10-18 02:23:29,611 INFO    Thread-412 (_run_job):11441 [wandb_setup.py:_flush():68] Loading settings from /Users/alyssahuang/.config/wandb/settings
+2022-10-18 02:23:29,611 INFO    Thread-412 (_run_job):11441 [wandb_setup.py:_flush():68] Loading settings from /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/settings
+2022-10-18 02:23:29,612 INFO    Thread-412 (_run_job):11441 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True', 'project': 'cs197-pset4', 'entity': 'alyssahuang02', 'root_dir': '/Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4', 'run_id': 'x06sfrot', 'sweep_param_path': '/Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/sweep-r2raykr7/config-x06sfrot.yaml', 'sweep_id': 'r2raykr7'}
+2022-10-18 02:23:29,612 INFO    Thread-412 (_run_job):11441 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'exercise.py', 'program': '/Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/exercise.py'}
+2022-10-18 02:23:29,612 INFO    Thread-412 (_run_job):11441 [wandb_init.py:_log_setup():476] Logging user logs to /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221018_022329-x06sfrot/logs/debug.log
+2022-10-18 02:23:29,612 INFO    Thread-412 (_run_job):11441 [wandb_init.py:_log_setup():477] Logging internal logs to /Users/alyssahuang/Documents/GitHub/CS197/CS197 Pset4/wandb/run-20221018_022329-x06sfrot/logs/debug-internal.log
+2022-10-18 02:23:29,613 INFO    Thread-412 (_run_job):11441 [wandb_init.py:init():516] calling init triggers
+2022-10-18 02:23:29,613 INFO    Thread-412 (_run_job):11441 [wandb_init.py:init():519] wandb.init called with sweep_config: {'batch_size': 200, 'epochs': 15, 'lr': 0.01}
+config: {}
+2022-10-18 02:23:29,613 INFO    Thread-412 (_run_job):11441 [wandb_init.py:init():569] starting backend
+2022-10-18 02:23:29,613 INFO    Thread-412 (_run_job):11441 [wandb_init.py:init():573] setting up manager
+2022-10-18 02:23:29,621 INFO    Thread-412 (_run_job):11441 [backend.py:_multiprocessing_setup():102] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2022-10-18 02:23:29,625 INFO    Thread-412 (_run_job):11441 [wandb_init.py:init():580] backend started and connected
+2022-10-18 02:23:29,632 INFO    Thread-412 (_run_job):11441 [wandb_run.py:_config_callback():1145] config_cb None None {'batch_size': 200, 'epochs': 15, 'lr': 0.01}
+2022-10-18 02:23:29,634 INFO    Thread-412 (_run_job):11441 [wandb_init.py:init():658] updated telemetry
+2022-10-18 02:23:29,635 INFO    Thread-412 (_run_job):11441 [wandb_init.py:init():692] communicating run to backend with 30 second timeout
+2022-10-18 02:23:29,948 INFO    Thread-412 (_run_job):11441 [wandb_run.py:_on_init():1974] communicating current version
+2022-10-18 02:23:30,042 INFO    Thread-412 (_run_job):11441 [wandb_run.py:_on_init():1978] got version response upgrade_message: "wandb version 0.13.4 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2022-10-18 02:23:30,042 INFO    Thread-412 (_run_job):11441 [wandb_init.py:init():727] starting run threads in backend
+2022-10-18 02:23:32,163 INFO    Thread-412 (_run_job):11441 [wandb_run.py:_console_start():1954] atexit reg
+2022-10-18 02:23:32,164 INFO    Thread-412 (_run_job):11441 [wandb_run.py:_redirect():1812] redirect: SettingsConsole.WRAP_RAW
+2022-10-18 02:23:32,164 INFO    Thread-412 (_run_job):11441 [wandb_run.py:_redirect():1877] Wrapping output streams.
+2022-10-18 02:23:32,164 INFO    Thread-412 (_run_job):11441 [wandb_run.py:_redirect():1899] Redirects installed.
+2022-10-18 02:23:32,165 INFO    Thread-412 (_run_job):11441 [wandb_init.py:init():764] run started, returning control to user process
+2022-10-18 02:25:21,523 INFO    Thread-412 (_run_job):11441 [wandb_run.py:_finish():1720] finishing run alyssahuang02/cs197-pset4/x06sfrot
+2022-10-18 02:25:21,524 INFO    Thread-412 (_run_job):11441 [wandb_run.py:_atexit_cleanup():1923] got exitcode: 0
+2022-10-18 02:25:21,524 INFO    Thread-412 (_run_job):11441 [wandb_run.py:_restore():1906] restore
+2022-10-18 02:25:21,524 INFO    Thread-412 (_run_job):11441 [wandb_run.py:_restore():1912] restore done
+2022-10-18 02:25:26,528 INFO    Thread-412 (_run_job):11441 [wandb_run.py:_on_finish():2224] got exit ret: None
+2022-10-18 02:25:31,636 INFO    Thread-412 (_run_job):11441 [wandb_run.py:_on_finish():2224] got exit ret: None
+2022-10-18 02:25:32,141 INFO    Thread-412 (_run_job):11441 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 1
+  artifact_count: 401
+}
+pusher_stats {
+  uploaded_bytes: 196300
+  total_bytes: 196300
+}
+
+2022-10-18 02:25:32,577 INFO    Thread-412 (_run_job):11441 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 1
+  artifact_count: 401
+}
+pusher_stats {
+  uploaded_bytes: 196300
+  total_bytes: 196300
+}
+
+2022-10-18 02:25:33,781 INFO    Thread-412 (_run_job):11441 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 1
+  artifact_count: 401
+}
+pusher_stats {
+  uploaded_bytes: 196300
+  total_bytes: 196300
+}
+
+2022-10-18 02:25:33,893 INFO    Thread-412 (_run_job):11441 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  artifact_count: 401
+}
+pusher_stats {
+  uploaded_bytes: 196300
+  total_bytes: 204936
+}
+
+2022-10-18 02:25:33,997 INFO    Thread-412 (_run_job):11441 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  artifact_count: 401
+}
+pusher_stats {
+  uploaded_bytes: 196300
+  total_bytes: 204936
+}
+
+2022-10-18 02:25:34,104 INFO    Thread-412 (_run_job):11441 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  artifact_count: 401
+}
+pusher_stats {
+  uploaded_bytes: 196300
+  total_bytes: 204936
+}
+
+2022-10-18 02:25:34,212 INFO    Thread-412 (_run_job):11441 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  artifact_count: 401
+}
+pusher_stats {
+  uploaded_bytes: 204936
+  total_bytes: 204936
+}
+
+2022-10-18 02:25:34,318 INFO    Thread-412 (_run_job):11441 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  artifact_count: 401
+}
+pusher_stats {
+  uploaded_bytes: 204936
+  total_bytes: 204936
+}
+
+2022-10-18 02:25:34,427 INFO    Thread-412 (_run_job):11441 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  artifact_count: 401
+}
+pusher_stats {
+  uploaded_bytes: 204936
+  total_bytes: 204936
+}
+
+2022-10-18 02:25:34,532 INFO    Thread-412 (_run_job):11441 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  artifact_count: 401
+}
+pusher_stats {
+  uploaded_bytes: 204936
+  total_bytes: 204936
+}
+
+2022-10-18 02:25:34,640 INFO    Thread-412 (_run_job):11441 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  artifact_count: 401
+}
+pusher_stats {
+  uploaded_bytes: 204936
+  total_bytes: 204936
+}
+
+2022-10-18 02:25:34,746 INFO    Thread-412 (_run_job):11441 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  artifact_count: 401
+}
+pusher_stats {
+  uploaded_bytes: 204936
+  total_bytes: 204936
+}
+
+2022-10-18 02:25:34,896 INFO    Thread-412 (_run_job):11441 [wandb_run.py:_on_finish():2224] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 1
+  artifact_count: 401
+}
+pusher_stats {
+  uploaded_bytes: 204936
+  total_bytes: 204936
+}
+
+2022-10-18 02:25:35,086 INFO    Thread-412 (_run_job):11441 [wandb_run.py:_on_finish():2224] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 6
+  media_count: 1
+  artifact_count: 401
+}
+pusher_stats {
+  uploaded_bytes: 204936
+  total_bytes: 204936
+}
+local_info {
+}
+
+2022-10-18 02:25:36,202 INFO    Thread-412 (_run_job):11441 [wandb_run.py:_footer_history_summary_info():3321] rendering history
+2022-10-18 02:25:36,204 INFO    Thread-412 (_run_job):11441 [wandb_run.py:_footer_history_summary_info():3353] rendering summary
+2022-10-18 02:25:36,210 INFO    Thread-412 (_run_job):11441 [wandb_run.py:_footer_sync_info():3277] logging synced files

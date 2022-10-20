@@ -1,0 +1,16 @@
+
+Train Loss: 1.159,                 Valid Loss: 1.041795,                 Accuracy: 0.81
+Train Loss: 1.006,                 Valid Loss: 0.746860,                 Accuracy: 0.86
+Train Loss: 0.668,                 Valid Loss: 0.614341,                 Accuracy: 0.87
+Train Loss: 0.600,                 Valid Loss: 0.534378,                 Accuracy: 0.89
+Train Loss: 0.620,                 Valid Loss: 0.484881,                 Accuracy: 0.89
+Train Loss: 0.638,                 Valid Loss: 0.446012,                 Accuracy: 0.90
+Train Loss: 0.646,                 Valid Loss: 0.416030,                 Accuracy: 0.91
+Train Loss: 0.450,                 Valid Loss: 0.392944,                 Accuracy: 0.90
+Train Loss: 0.602,                 Valid Loss: 0.373663,                 Accuracy: 0.91
+Train Loss: 0.468,                 Valid Loss: 0.358086,                 Accuracy: 0.91
+Train Loss: 0.440,                 Valid Loss: 0.345560,                 Accuracy: 0.91
+Train Loss: 0.477,                 Valid Loss: 0.334459,                 Accuracy: 0.91
+Train Loss: 0.412,                 Valid Loss: 0.323856,                 Accuracy: 0.92
+Train Loss: 0.359,                 Valid Loss: 0.316269,                 Accuracy: 0.91
+Train Loss: 0.306,                 Valid Loss: 0.310572,                 Accuracy: 0.91

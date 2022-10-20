@@ -1,0 +1,14 @@
+
+Train Loss: 0.271,                 Valid Loss: 0.272543,                 Accuracy: 0.93
+Train Loss: 0.155,                 Valid Loss: 0.216633,                 Accuracy: 0.93
+Train Loss: 0.138,                 Valid Loss: 0.187026,                 Accuracy: 0.94
+Train Loss: 0.100,                 Valid Loss: 0.179686,                 Accuracy: 0.94
+Train Loss: 0.089,                 Valid Loss: 0.161854,                 Accuracy: 0.95
+Train Loss: 0.125,                 Valid Loss: 0.161078,                 Accuracy: 0.95
+Train Loss: 0.075,                 Valid Loss: 0.155796,                 Accuracy: 0.95
+Train Loss: 0.064,                 Valid Loss: 0.149859,                 Accuracy: 0.95
+Train Loss: 0.084,                 Valid Loss: 0.147498,                 Accuracy: 0.95
+Train Loss: 0.047,                 Valid Loss: 0.146611,                 Accuracy: 0.96
+Train Loss: 0.021,                 Valid Loss: 0.152663,                 Accuracy: 0.95
+Train Loss: 0.043,                 Valid Loss: 0.154063,                 Accuracy: 0.95
+[34m[1mwandb[39m[22m: Ctrl + C detected. Stopping sweep.

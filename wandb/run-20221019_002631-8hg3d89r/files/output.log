@@ -1,0 +1,11 @@
+
+INFO:root:Current metric value better than 0.2462536871433258 better than best inf, saving model at ./model_weights/Sequential_epoch0.pt, & logging model weights to W&B.
+Train Loss: 0.456,                 Valid Loss: 0.246254,                 Accuracy: 0.92
+INFO:root:Current metric value better than 0.20384845063090323 better than best 0.2462536871433258, saving model at ./model_weights/Sequential_epoch1.pt, & logging model weights to W&B.
+Train Loss: 0.264,                 Valid Loss: 0.203848,                 Accuracy: 0.94
+INFO:root:Current metric value better than 0.17550184093415738 better than best 0.20384845063090323, saving model at ./model_weights/Sequential_epoch2.pt, & logging model weights to W&B.
+Train Loss: 0.108,                 Valid Loss: 0.175502,                 Accuracy: 0.94
+Train Loss: 0.279,                 Valid Loss: 0.187394,                 Accuracy: 0.94
+INFO:root:Current metric value better than 0.1664539396762848 better than best 0.17550184093415738, saving model at ./model_weights/Sequential_epoch4.pt, & logging model weights to W&B.
+INFO:root:Removing extra models.. [{'path': './model_weights/Sequential_epoch0.pt', 'score': 0.2462536871433258}]
+Train Loss: 0.266,                 Valid Loss: 0.166454,                 Accuracy: 0.94
